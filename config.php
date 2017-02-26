@@ -1,0 +1,62 @@
+<?php
+// FILE MANAGER
+$config=array(
+
+    'base_path'=>'/var/www/',
+    'base_url'=>'http://localhost/',
+    'allow_all_files'=>false,
+    'allowed_file_types'=>array(
+        'text/html',
+        //'text/x-php',
+        'text/css',
+        'application/x-javascript',
+        'application/javascript',
+		'font/opentype',
+		'application/font-otf',
+		'application/vnd.ms-fontobject',
+		'application/font-ttf',
+		'application/font-woff',
+		'application/x-font-ttf',
+        'application/json',
+        'image/jpeg',
+        'image/gif',
+        'image/png',
+        'image/svg+xml',
+        'application/pdf',
+        'text/plain',
+        'text/csv',
+        'text/ics',
+        'image/x-icon',
+        'application/msword',
+        'application/mspowerpoint',
+        'application/excel',
+        'text/xml',
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'application/vnd.ms-word.document.macroenabled.12',
+        'application/vnd.ms-excel.sheet.macroenabled.12',
+        'application/vnd.ms-excel.sheet.binary.macroenabled.12',
+        'video/mp4'
+    ),
+    'editable_file_types'=>array(
+        'txt','css','js','html','js','css'
+    ),
+    'viewable_file_types'=>array(
+        'jpg','gif','png','pdf'
+    ),
+    'icons'=>array(
+        'pdf'=>'file-pdf-o',
+        'dir'=>'folder',
+        'jpg'=>'image','png'=>'image','gif'=>'image',
+        'html'=>'file-code-o','css'=>'file-code-o','js'=>'file-code-o','php'=>'file-code-o',
+        'mp3'=>'file-audio-o','ogg'=>'file-audio-o','wav'=>'file-audio-o',
+        'doc'=>'file-word-o','docx'=>'file-word-o',
+        'ppt'=>'file-powerpoint-o','pptx'=>'file-powerpoint-o',
+        'xls'=>'file-excel-o','xlsx'=>'file-excel-o',
+        'zip'=>'file-zip-o',
+        'txt'=>'file-text-o',
+        'mp4'=>'file-video-o'
+    )
+);
+
+?>
